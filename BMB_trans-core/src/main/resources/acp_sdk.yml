@@ -1,0 +1,42 @@
+acpsdk:
+  frontTransUrl: https://gateway.test.95516.com/gateway/api/frontTransReq.do
+  backTransUrl: https://gateway.test.95516.com/gateway/api/backTransReq.do
+  singleQueryUrl: https://gateway.test.95516.com/gateway/api/queryTrans.do
+  batchTransUrl: https://gateway.test.95516.com/gateway/api/batchTrans.do
+  fileTransUrl: https://filedownload.test.95516.com/
+  appTransUrl: https://gateway.test.95516.com/gateway/api/appTransReq.do
+  cardTransUrl: https://gateway.test.95516.com/gateway/api/cardTransReq.do
+  jfFrontTransUrl: https://gateway.test.95516.com/jiaofei/api/frontTransReq.do
+  jfBackTransUrl: https://gateway.test.95516.com/jiaofei/api/backTransReq.do
+  jfSingleQueryUrl: https://gateway.test.95516.com/jiaofei/api/queryTrans.do
+  jfCardTransUrl: https://gateway.test.95516.com/jiaofei/api/cardTransReq.do
+  jfAppTransUrl: https://gateway.test.95516.com/jiaofei/api/appTransReq.do
+  version: 5.1.0
+  encoding: UTF-8
+  signMethod: 01
+  ifValidateCNName: false
+  ifValidateRemoteCert: false
+  backUrl: http://222.222.222.222:8080/ACPSample_JF/backRcvResponse
+  frontUrl: http://localhost:8080/ACPSample_JF/frontRcvResponse
+  mechId: 777290058151725
+  signCert:
+    path: H:/certs/unionpay_cp_test/acp_test_sign.pfx
+    pwd: 000000
+    type: PKCS12
+  encryptCert.path: H:/certs/unionpay_cp_test/acp_test_enc.cer
+  middleCert.path: H:/certs/unionpay_cp_test/acp_test_middle.cer
+  rootCert.path: H:/certs/unionpay_cp_test/acp_test_root.cer
+  validateCert.dir: 
+  batchQueryUrl: 
+  encryptTrackCert.path: 
+  encryptTrackKey.modulus: 
+  encryptTrackKey.exponent: 
+  cvn2:
+    enc: 
+  date.enc: 
+  pan.enc: 
+  singleMode: 
+  secureKey: 
+  qrcBackTransUrl: 
+  qrcB2cIssBackTransUrl: 
+  qrcB2cMerBackTransUrl: 

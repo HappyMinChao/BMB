@@ -1,0 +1,15 @@
+
+spring:
+  application:
+    name: bmb-trans-core
+  http:
+    encoding:
+      charset: utf-8
+      enabled: true
+      force: true
+    
+server:
+  port: 8081
+  
+logging:
+  level: debug
